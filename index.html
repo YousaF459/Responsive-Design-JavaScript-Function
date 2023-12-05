@@ -1,0 +1,106 @@
+<html lang="en">
+<head>
+<title>Resposive Design & Javascript Function</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="main-div-id" class="main-div">
+
+
+
+
+<div class="container">
+<div class="left-div" id="left-div-id">
+<h3 class="outer" id="rh">Your Result</h5>
+<div class="circle">
+<h1 id="fs">76</h1>
+<h3 id="cc">of 100</h3>
+</div>
+<h1 class="outer" id="gh">Great</h4>
+<p class="outer" id="pf">You Scored higher than 65% of the people who have taken these tests</p>
+
+
+</div>
+<div class="right-div" id="right-div-id">
+<h3>Summary</h3>
+<ul>
+<li id="li1">
+<img alt="Image Reaction" src="D:\Frontend Mentor Challenges\2\results-summary-component-main\Solution\icon-reaction.svg"></img>
+<span>Reaction</span>
+<h4 id="r">80</h4>
+<h5 id="light1"> / 100</h5>
+
+</li>
+<li id="li2">
+<img alt="Brain Image" src="D:\Frontend Mentor Challenges\2\results-summary-component-main\Solution\icon-memory.svg"></img>
+<span>Memory</span>
+<h4>92</h4>
+<h5 id="light2"> / 100</h5>
+</li>
+<li id="li3">
+<img alt="Chat Image" src="D:\Frontend Mentor Challenges\2\results-summary-component-main\Solution\icon-verbal.svg"></img>
+<span>Verbal</span>
+<h4>61</h4>
+<h5 id="light3"> / 100</h5>
+</li>
+<li id="li4">
+<img alt="Eye Image" src="D:\Frontend Mentor Challenges\2\results-summary-component-main\Solution\icon-visual.svg"></img>
+<span>Visual</span>
+<h4 class="end">72</h4>
+<h5  id="light4"> / 100</h5>
+</li>
+</ul>
+
+<button id="button1">Continue</button>
+
+
+
+</div>
+</div>
+
+</div>
+
+
+
+
+
+<script>
+
+let buttonclick=document.getElementById("button1");
+let main=document.getElementById("fs");
+
+
+
+
+
+buttonclick.onclick=change;
+
+      function change(){
+	let newvalue=Math.floor(Math.random() * 100);
+	main.textContent =newvalue;
+	Reaction(newvalue);
+      }
+
+	
+	
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+body{
+box-sizing:border-box;
+  font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 1rem;
+    background-color: hsl(0, 0%, 95%);
+}
+
+* {
+box-sizing:inherit;
+margin:0;
+
+}
+
+
+
+
+.main-div{
+height:100%;
+display:flex;
+background-color:#ebf1ff;
+align-items: center;
+justify-content:center;
+}
+
+.container{
+display:flex;
+align-items: center;
+justify-content:center;
+border-radius:25px;
+background-color:ffffff;
+}
+
+.left-div{
+display:flex;
+flex-direction:column;
+background-color:#504de3;
+height:400px;
+width:310px;
+border-radius:25px;
+align-items:center;
+justify-content: center;
+}
+
+
+
+.circle{
+border-radius:50%;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content: center;
+background-color:hsla(256, 72%, 46%, 1);
+flex-basis:40%;
+width:50%;
+color:white;
+font-size:18px;
+}
+
+.outer{
+flex-basis:20%;
+color:white;
+padding-top:20px;
+}
+#pf{
+font-size:18px;
+padding-left:30px;
+padding-top:0;
+padding-right:30px;
+padding-bottom:10px;
+}
+#rh{
+ padding-top:35px;
+}
+#gh{
+padding-top:15px;
+padding-bottom:10px;
+flex-basis:10%;
+}
+
+#rh,#cc,#pf{
+color:#c8c7ff;
+}
+#fs{
+font-size:55px;
+}
+
+
+.right-div{
+display:flex;
+flex-direction:column;
+height:360px;
+width:310px;
+padding-left:33;
+padding-right:27;
+gap:25px;
+margin-top:35px;
+}
+.right-div h3{
+color: #303b5a ;
+}
+.right-div button{
+background-color: #303b5a ;
+border-radius:25px;
+height:40px;
+color:white;
+}
+.right-div ul{
+display:flex;
+flex-direction:column;
+list-style:none;
+padding-left:0;
+gap:15px;
+}
+
+li{
+display:flex;
+border-radius:5px;
+height:35px;
+padding-left:5px;
+align-items:center;
+}
+li span{
+padding-left:5px;
+}
+li h4{
+flex-grow:2;
+text-align:end;
+padding-right:3px;
+color:#303b5a;
+}
+li h5{
+padding-right:7px;
+color:#c8c7ff;
+}
+
+#li4{
+color:#4654d4;
+background-color:#d9ddff;
+}
+
+#li3{
+color:#00bd91;
+background-color:#d7fcf4;
+}
+
+#li2{
+color:#ffb01f;
+background-color:#f7f0e4;
+}
+
+#li1{
+color:#ff5757;
+background-color:#fcf0f0;
+}
+
+#Light4,#Light3,#Light2,#Light1{
+color:#898a8f ;
+}
+
+#button1:hover{
+background-color:#f5a9a4;
+font-size:20px;
+cursor: pointer;
+}
+
+@media(max-width:620px){
+.container{
+flex-direction:column;
+}
+
+
+
+
+
+
+
+
+
+
